@@ -16,9 +16,10 @@ html{
 
 .main-container{
     height: 100vh;
-    background-color: black;
+    background-color: #000000;
 }
 
+/* upper controls */
 .main-container .upper-controls{
     height: 4vh;
     color: white;
@@ -36,8 +37,9 @@ html{
     display: inline-block;
 }
 
+/* display-users */
 .main-container .display-users{
-    height: 88vh;
+    height: 89vh;
     padding: 1rem 2.5rem;
 }
 
@@ -45,14 +47,14 @@ html{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    row-gap: .5rem;
+    row-gap: .6rem;
     column-gap: .3rem;
 }
 
 .row-users .col-user{
     flex-basis: calc(100%/7 - .3rem);
     position: relative;
-    height: calc(100%/5 - .5rem);
+    height: calc(100%/5 - .6rem);
 }
 
 .col-user .user-name{
@@ -60,7 +62,7 @@ html{
     bottom: 0;
     left: 0;
     color: white;
-    font-size: .6rem;
+    font-size: .7rem;
     background-color: rgba(98, 98, 98, 0.7);
     padding: .1rem;
 }
@@ -72,8 +74,50 @@ html{
     display: block;   
 }
 
+/* lower-controls */
 .main-container .lower-controls{
-    height: 8vh;
-    background-color: gray;
+    height: 7vh;
+    background-color: #222222;
+    color: white;
+    font-size: .7rem;
 }
+
+.lower-controls .lower-controls-row{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-controls-row .lower-controls-col{
+    height: 100%;
+}
+
+.lower-controls .lower-controls-list{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+.lower-controls .lower-controls-list .lower-controls-list-item{
+    display: flex;
+    gap: .8rem;
+}
+
+.lower-controls-list .lower-controls-list-item .single-control{
+    text-align: center;
+    padding-left: .9rem;
+}
+
+.lower-controls .lower-controls-row .lower-controls-col .end{
+    color: red;
+    background-color: #4A4A4A;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
 
