@@ -45,14 +45,14 @@ html{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    column-gap: .3rem;
     row-gap: .5rem;
+    column-gap: .3rem;
 }
 
 .row-users .col-user{
-    flex-basis: calc(100%/7 - .5rem);
+    flex-basis: calc(100%/7 - .3rem);
     position: relative;
-    height: calc(100%/5 - .3rem);
+    height: calc(100%/5 - .5rem);
 }
 
 .col-user .user-name{
