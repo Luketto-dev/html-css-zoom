@@ -41,6 +41,7 @@ html{
 .main-container .display-users{
     height: 89vh;
     padding: 1rem 2.5rem;
+    overflow: auto;
 }
 
 .display-users .row-users{
@@ -55,6 +56,7 @@ html{
     flex-basis: calc(100%/7 - .3rem);
     position: relative;
     height: calc(100%/5 - .6rem);
+    min-width: 120px;
 }
 
 .col-user .user-name{
@@ -80,6 +82,7 @@ html{
     background-color: #222222;
     color: white;
     font-size: .7rem;
+    overflow: auto;
 }
 
 .lower-controls .lower-controls-row{
